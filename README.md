@@ -8,6 +8,17 @@ Goal: Classify actions A2, A10 and A26 of the NTU RGB + D dataset using graph co
    
    Open the downloaded file -> data -> Extract the "NTU-RGB-D" folder into path
    
+2) Run categorize_data.py for the desired categorization.
+
+OR: 
+
+for xview only (no xsub), download the following:
+
+https://drive.google.com/file/d/1yVB_o05xXAyjgGR0vBea2HGo3cG1lwvH/view
+
+Extract the "Xview" folder into path
+
+   
 # TODO
    The size of the data (npy file) describes the following ([Index] = Description):
    - [1] = Number of videos
@@ -18,7 +29,7 @@ Goal: Classify actions A2, A10 and A26 of the NTU RGB + D dataset using graph co
    
    What we need to do:
    
-   - For each one in the 1st dimension of the labels (pkl file), look for 3, 11 and 27 in the 2nd dimension (they start from 0).
+ ~~- For each one in the 1st dimension of the labels (pkl file), look for 3, 11 and 27 in the 2nd dimension (they start from 0).
    - After that, extract their respective data from the npy file.
-   - Categorize them into files (each action in a folder).
-   - Train a model to recognize actions A2, A10 and A26.
+  ~~- Categorize them into files (each action in a folder).~~
+   - Train a model to recognize actions A2, A10 and A26.~~
