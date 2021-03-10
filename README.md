@@ -31,7 +31,7 @@ Goal: Classify actions A2, A10 and A26 of the NTU RGB + D dataset using graph co
 
    What we need to do:
    
-   - ~~-For each one in the 1st dimension of the labels (pkl file), look for 3, 11 and 27 in the 2nd dimension (they start from 0).~~
-   - ~~-After that, extract their respective data from the npy file.~~
-   - ~~-Categorize them into files (each action in a folder).~~
+   - ~~For each one in the 1st dimension of the labels (pkl file), look for 3, 11 and 27 in the 2nd dimension (they start from 0).~~
+   - ~~After that, extract their respective data from the npy file.~~
+   - ~~Categorize them into files (each action in a folder).~~
    - Train a model to recognize actions A2, A10 and A26.
