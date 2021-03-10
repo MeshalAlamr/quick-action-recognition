@@ -10,13 +10,13 @@ Goal: Classify actions A2, A10 and A26 of the NTU RGB + D dataset using graph co
    
 2) Run categorize_data.py for the desired categorization.
 
-OR: 
+### OR: 
 
-For xview only (no xsub), download the following:
+   For xview only (no xsub), download the following:
 
-https://drive.google.com/file/d/1yVB_o05xXAyjgGR0vBea2HGo3cG1lwvH/view
+   https://drive.google.com/file/d/1yVB_o05xXAyjgGR0vBea2HGo3cG1lwvH/view
 
-Extract the "Xview" folder into path.
+   Extract the "Xview" folder into path.
 
    
 # Background
