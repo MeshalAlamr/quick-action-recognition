@@ -16,7 +16,7 @@ Goal: Classify actions A2, A10 and A26 of the NTU RGB + D dataset using graph co
 
    https://drive.google.com/file/d/1yVB_o05xXAyjgGR0vBea2HGo3cG1lwvH/view
 
-   Extract the "Xview" folder into path.
+   Extract the "xview" folder into path.
 
    
 # Background
