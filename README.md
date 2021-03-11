@@ -1,5 +1,5 @@
 # simple-action-recognition
-Goal: Classify actions A2, A10 and A26 of the NTU RGB + D dataset using graph convolutional neural networks.
+Goal: Classify actions A2, A10 and A26 of the NTU RGB+D dataset using graph convolutional neural networks.
 
 # Steps
 1) Download NTU-RGB-D from:
