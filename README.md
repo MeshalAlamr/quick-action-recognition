@@ -22,9 +22,9 @@ Goal: Classify actions A2, A10 and A26 of the NTU RGB+D dataset using graph conv
 # Background
    The size of the data (npy file) describes the following ([Index] = Description):
    - [1] = Number of videos.
-   - [2] = x,y,z coordinates. 
-   - [3] = 25 joints --> 3 coordinates.
-   - [4] = Number of frames (300 frames = 10s) -- filled with zeros if less than 300.
+   - [2] = x,y,z coordinates.
+   - [3] = Number of frames (300 frames = 10s) -- filled with zeros if less than 300.
+   - [4] = 25 joints --> 3 coordinates.
    - [5] = Number of people (if one person than the rest are zeros).
 
 # TODO
