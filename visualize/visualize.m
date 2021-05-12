@@ -4,8 +4,11 @@ clear
 close all
 
 %%
-data = readNPY('val_data.npy');
-data_ds = readNPY('val_data_downsampled.npy'); %downsampled
+normal_data_path = 'val_data.npy';
+downsampled_data_path = 'val_data_downsampled.npy';
+
+data = readNPY(normal_data_path);
+data_ds = readNPY(downsampled_data_path);
 
 n = 10; % video number
 k = 1;
