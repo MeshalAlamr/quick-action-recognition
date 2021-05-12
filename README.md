@@ -31,6 +31,10 @@ We provide visualization of the 3D skeletal data of **NTU-RGB+D** on MATLAB. <br
 
 More details can be found on the "visualize" folder.
 
+## Training
+A model can be trained by running "main.py". The results will show in the "results" folder. <br/> 
+In case of using a smaller data, some modifications to the code are needed, they're detailed in the code.
+
 ## Results
 Some results of different experiments are shown here:
 
