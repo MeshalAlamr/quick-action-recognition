@@ -1,7 +1,7 @@
 # Quick Human Actions Recognition
 
 ## Introduction
-This repository holds the codebase, dataset and models for the project:
+This repository holds the codebase and dataset for the project:
 
 **Spatial Temporal Graph Convolutional Networks for the Recognition of Quick Human Actions**
 
