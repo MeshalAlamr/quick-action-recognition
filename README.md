@@ -1,37 +1,42 @@
-# simple-action-recognition
-Goal: Classify actions A2, A10 and A26 of the NTU RGB+D dataset using graph convolutional neural networks.
+# Quick Human Actions Recognition
 
-# Steps
-1) Download NTU-RGB-D from:
+## Introduction
+This repository holds the codebase, dataset and models for the project:
 
-   https://drive.google.com/file/d/103NOL9YYZSW1hLoWmYnv5Fs8mK-Ij7qb/view
+**Spatial Temporal Graph Convolutional Networks for the Recognition of Quick Human Actions**
+
+### Prerequisites
+- Python3 (>3.5)
+- [PyTorch](http://pytorch.org/)
+
+## Data Preparation
+We Experimented on the 3D Skeletal Data of **NTU-RGB+D**. <br/>
+The pre-processed data can be downloaded from
+[GoogleDrive](https://drive.google.com/open?id=103NOL9YYZSW1hLoWmYnv5Fs8mK-Ij7qb). <br/>
+After downloading the data, extract the "NTU-RGB-D" folder into path.
    
-   Open the downloaded file -> data -> Extract the "NTU-RGB-D" folder into path.
-   
-2) Run categorize_data.py for the desired categorization.
+## Downsampling
+To create a dataset of fast actions, we downsample the NTU-RGB+D dataset. <br/>
+The downsampling is done by taking one frame and leaving another, halving the number of frames. <br>
+Run "downsample.py" to downsample the desired data.
 
-### OR: 
+## Data Reduction (optional)
+We provide "create_small_data.py" that creates a smaller data from the original data by selecting a number of actions out of all 60 actions.
+The desired actions can be selected in the code based on their labels on [the NTU-RGB+D website](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp).
 
-   For xview only (no xsub), download the following:
+## Visualization
+We provide visualization of the 3D skeletal data of **NTU-RGB+D** on MATLAB. <br/>
+More details can be found on the "visualize" folder.
 
-   https://drive.google.com/file/d/1yVB_o05xXAyjgGR0vBea2HGo3cG1lwvH/view
+## Results
+Some results of different experiments are shown here:
 
-   Extract the "xview" folder into path.
+| Model | Temporal Kernel Size | Downsampled NTU-RGB+D <br/> (60 actions)| Downsampled NTU-RGB+D <br/> (10 actions) |
+| :------ | :------: | :------: | :------: |
+| Model I (ST-GCN) [1] | 9 | 76.29% | 93.39% |  
+| **Model II** (Proposed)| **9** | - | **94.01%** | 
+| Model I (ST-GCN) [1] | 13 | - | 94% |  
+| **Model II** (Proposed)| **13** | - | **93.29%** | 
 
-   
-# Background
-   The size of the data (npy file) describes the following ([Index] = Description):
-   - [1] = Number of videos.
-   - [2] = x,y,z coordinates.
-   - [3] = Number of frames (300 frames = 10s) -- filled with zeros if less than 300.
-   - [4] = 25 joints --> 3 coordinates.
-   - [5] = Number of people (if one person than the rest are zeros).
+[1] Sijie Yan et al., 2018. Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition.
 
-# TODO
-
-   What we need to do:
-   
-   - ~~For each one in the 1st dimension of the labels (pkl file), look for 3, 11 and 27 in the 2nd dimension (they start from 0).~~
-   - ~~After that, extract their respective data from the npy file.~~
-   - ~~Categorize them into files (each action in a folder).~~
-   - Train a model to recognize actions A2, A10 and A26.
