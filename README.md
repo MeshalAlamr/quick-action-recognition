@@ -26,6 +26,9 @@ The desired actions can be selected in the code based on their labels on [the NT
 
 ## Visualization
 We provide visualization of the 3D skeletal data of **NTU-RGB+D** on MATLAB. <br/>
+
+![output](https://user-images.githubusercontent.com/68873733/117915304-af1f7600-b2ed-11eb-811f-313261572cff.gif)
+
 More details can be found on the "visualize" folder.
 
 ## Results
