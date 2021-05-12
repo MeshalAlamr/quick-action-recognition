@@ -1,20 +1,23 @@
 import numpy as np
 
-data = np.load("val_data.npy")
-#data = data[:,:,:,:,0]
+# Load the data
+data = np.load("train_data.npy")
 
-# shape = (n_videos, xyz, frames, joints, subjects)
+# Shape = (# of videos, coordinate axes, # of frames, # of joints, # of subjects)
 shape = list(data.shape)
-shape[2] = int(shape[2]/2) #halve the number of frames
 
-# initialize the new data
+# Halve the number of frames
+shape[2] = int(shape[2]/2)
+
+# Initialization
 downsampled_data = np.zeros(shape,dtype=np.float32)
 
-# fill the new data, take one frame leave another
+# Downsample the data, take one frame leave another
 x=0
 for i in range(300): 
     if i%2==0:
         downsampled_data[:,:,x,:,:] = data[:,:,i,:,:]
         x = x+1
 
-np.save("val_data_downsampled.npy",downsampled_data)
+# Save the downsampled data
+np.save("train_data_downsampled.npy", downsampled_data)
