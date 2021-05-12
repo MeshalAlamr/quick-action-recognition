@@ -102,7 +102,7 @@ for i = [1:300]
     title(ax1,'Normal')
     title(ax2,'Downsampled')
     
-    # 2D-View
+    % 2D-View
     view(ax1,0,90)
     view(ax2,0,90)
     
