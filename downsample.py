@@ -1,7 +1,9 @@
 import numpy as np
 
+path = "data/NTU-RGB-D/xview/"
+
 # Load the data
-data = np.load("train_data.npy")
+data = np.load(path + "train_data.npy")
 
 # Shape = (# of videos, coordinate axes, # of frames, # of joints, # of subjects)
 shape = list(data.shape)
@@ -20,4 +22,4 @@ for i in range(300):
         x = x+1
 
 # Save the downsampled data
-np.save("train_data_downsampled.npy", downsampled_data)
+np.save(path + "train_data_downsampled.npy", downsampled_data)
