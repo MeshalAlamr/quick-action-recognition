@@ -43,7 +43,7 @@ Some results of different experiments are shown here:
 | Model I (ST-GCN) [1] | 9 | 76.29% | 93.39% |  
 | **Model II** (Proposed)| **9** | **85.59%** | **94.01%** | 
 | Model I (ST-GCN) [1] | 13 | - | 94% |  
-| **Model II** (Proposed)| **13** | 84.7% | **93.29%** | 
+| **Model II** (Proposed)| **13** | **84.7%** | **93.29%** | 
 
 [1] Sijie Yan et al., 2018. Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition.
 
