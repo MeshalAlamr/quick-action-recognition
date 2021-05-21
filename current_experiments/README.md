@@ -26,3 +26,4 @@
   - [ ] Temporal 7.
   - [ ] Temporal 15.
 - [ ] Review & prepare a presentation for attention ST-GCN techniques.
+- [ ] Retrain Model I (60 Actions) with temporal 9 for 0.5 downsample, **with batch size 4**.
