@@ -25,4 +25,4 @@
   - [ ] Temporal 5.
   - [ ] Temporal 7.
   - [ ] Temporal 15.
-- [ ] Review & prepare a presentation for attentions ST-GCN techniques.
+- [ ] Review & prepare a presentation for attention ST-GCN techniques.
