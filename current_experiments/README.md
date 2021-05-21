@@ -2,16 +2,16 @@
 
 ### 10 Actions Dataset
 
-| **Scenario** | **Model** | **Temporal** | **Downsample** | **Completion** |
-| :------ | :------: | :------: | :------: | :------: |
-| 0 | Normal | 09 | 0.25 | - |  
-| 1 | Normal | 13 | 0.25 | - |  
-| 2 | Small | 09 | 0.25 | Done |  
-| 3 | Small | 13 | 0.25 | Running |  
-| 4 | Small | 09 | 0.33 | Running |  
-| 5 | Small | 13 | 0.33 | - |  
-| 6 | Small | 09 | 0.33 | - |  
-| 7 | Small | 13 | 0.33 | - |  
+| **Scenario** | **Model** | **Temporal** | **Downsample** | **Completion** | Training Acc | Testing Acc |
+| :------ | :------: | :------: | :------: | :------: | :------: | :------: |
+| 0 | Normal | 09 | 0.25 | - | - | - |  
+| 1 | Normal | 13 | 0.25 | - | - | - | 
+| 2 | Small | 09 | 0.25 | Done | 94.02% | 93.27% |  
+| 3 | Small | 13 | 0.25 | Running | - | - |  
+| 4 | Small | 09 | 0.33 | Running | - | - |  
+| 5 | Small | 13 | 0.33 | - | - | - |  
+| 6 | Small | 09 | 0.33 | - | - | - |  
+| 7 | Small | 13 | 0.33 | - | - | - |  
 
 ## Tasks
 - [x] Create dataset with 0.25 downsampling.
