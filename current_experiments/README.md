@@ -17,10 +17,11 @@
 - [x] Create dataset with 0.25 downsampling.
 - [x] Create dataset with 0.33 downsampling.
 - [ ] Visualize other actions with the new downsampling rates (4 animations side by side).
-- [x] Request NTU-RGB+D RGB Videos.
+- [x] Request NTU-RGB+D Dataset access.
+- [ ] *Download NTU-RGB+D RGB Videos.*
 - [ ] Show RGB video with visualization.
 - [ ] Create a code to check minimum number of frames (non-zero) in the original dataset.
-- [ ] Train both models (10 Actions) for temporal 9 & 13 in the new downsampled data (0.25, 0.33).
+- [ ] *Train both models (10 Actions) for temporal 9 & 13 in the new downsampled data (0.25, 0.33)*.
 - [ ] Train both models with 0.5 downsampling (10 Actions) for:
   - [ ] Temporal 5.
   - [ ] Temporal 7.
