@@ -4,8 +4,8 @@
 
 | **Scenario** | **Model** | **Temporal** | **Downsample** | **Completion** | Training Acc | Testing Acc |
 | :------ | :------: | :------: | :------: | :------: | :------: | :------: |
-| 0 | Normal | 09 | 0.25 | - | - | - |  
-| 1 | Normal | 13 | 0.25 | Running | - | - | 
+| 0 | Normal | 09 | 0.25 | Running | - | - |  
+| 1 | Normal | 13 | 0.25 | Done | 94.87% | 92.79% | 
 | 2 | Small | 09 | 0.25 | Done | 94.02% | 93.27% |  
 | 3 | Small | 13 | 0.25 | Done | 95.17% | 93.55% |  
 | 4 | Small | 09 | 0.33 | Done | 93.88% | 93.50% |  
