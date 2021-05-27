@@ -34,9 +34,9 @@
 - [ ] Show RGB video with visualization.
 - [ ] Create a code to check minimum number of frames (non-zero) in the original dataset.
 - [x] Train both models (10 Actions) for temporal 9 & 13 in the new downsampled data (0.25, 0.33).
-- [ ] Train both models with 0.5 downsampling (10 Actions) for:
+- [x] Train both models with 0.5 downsampling (10 Actions) for:
   - [x] Temporal 5.
   - [x] Temporal 7.
-  - [ ] Temporal 15.
+  - [x]Temporal 15.
 - [ ] Review & prepare a presentation for attention ST-GCN techniques.
 - [ ] Retrain Model I (60 Actions) with temporal 9 for 0.5 downsample, **with batch size 4**.
