@@ -28,7 +28,7 @@
 ## Tasks
 - [x] Create dataset with 0.25 downsampling.
 - [x] Create dataset with 0.33 downsampling.
-- [ ] Visualize other actions with the new downsampling rates (4 animations side by side).
+- [x] Visualize other actions with the new downsampling rates (4 animations side by side).
 - [x] Request NTU-RGB+D Dataset access.
 - [x] Download NTU-RGB+D RGB Videos.
 - [ ] Show RGB video with visualization.
