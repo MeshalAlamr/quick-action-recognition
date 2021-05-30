@@ -32,7 +32,8 @@
 - [x] Request NTU-RGB+D Dataset access.
 - [x] Download NTU-RGB+D RGB Videos.
 - [x] Show RGB video with visualization.
-- [ ] Create a code to check minimum number of frames (non-zero) in the original dataset.
+- [x] Create a code to check minimum number of frames (non-zero) in the original dataset.
+  - Minimum Frames = x Frames
 - [x] Train both models (10 Actions) for temporal 9 & 13 in the new downsampled data (0.25, 0.33).
 - [x] Train both models with 0.5 downsampling (10 Actions) for:
   - [x] Temporal 5.
