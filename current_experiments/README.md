@@ -19,6 +19,10 @@
 | 11 | Small | 07 | 0.50 | Done | 93.97% | 93.12% |  
 | 12 | Normal | 15 | 0.50 | Done | 95.93% | 92.39% |  
 | 13 | Small | 15 | 0.50 | Done | 95.25% | 94.39% |  
+| **=** | **=** | **=** | **=** | **=** | **=** | **=** |  
+| 14 | Normal | 9 | 0.50 | Done | 87.65% | 86.02% |  
+
+
 
 
 
@@ -40,4 +44,4 @@
   - [x] Temporal 7.
   - [x] Temporal 15.
 - [ ] Review & prepare a presentation for attention ST-GCN techniques.
-- [ ] Retrain Model I (60 Actions) with temporal 9 for 0.5 downsample, **with batch size 4**.
+- [x] Retrain Model I (60 Actions) with temporal 9 for 0.5 downsample, **with batch size 4**.
