@@ -30,6 +30,9 @@
 
 
 ## Tasks
+<details>
+  <summary> [20/05 - 31/05] </summary>
+  
 - [x] Create dataset with 0.25 downsampling.
 - [x] Create dataset with 0.33 downsampling.
 - [x] Visualize other actions with the new downsampling rates (4 animations side by side).
@@ -37,11 +40,14 @@
 - [x] Download NTU-RGB+D RGB Videos.
 - [x] Show RGB video with visualization.
 - [x] Create a code to check minimum number of frames (non-zero) in the original dataset.
-  - Minimum Frames = x Frames
+  - Minimum Frames = 11 Frames?
 - [x] Train both models (10 Actions) for temporal 9 & 13 in the new downsampled data (0.25, 0.33).
 - [x] Train both models with 0.5 downsampling (10 Actions) for:
   - [x] Temporal 5.
   - [x] Temporal 7.
   - [x] Temporal 15.
-- [ ] Review & prepare a presentation for attention ST-GCN techniques.
+- [x] Review & prepare a presentation for attention ST-GCN techniques.
 - [x] Retrain Model I (60 Actions) with temporal 9 for 0.5 downsample, **with batch size 4**.
+
+</details>
+
