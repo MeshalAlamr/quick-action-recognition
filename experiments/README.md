@@ -17,7 +17,7 @@
 | 13 | Small | 15 | 0.50 | 95.25% | 94.39% |  
 
 ### Notes: 
-- All experminets were done on the 10 actions dataset. The selected 10 actions of the NTU-RGB+D are as follows: _drink water, brush hair, hand waving, wipe face, rub two hands, jump up, staggering, falling down, walking towards and take off a shoe._
+- All above experminets were done on the 10 actions dataset. The selected 10 actions of the NTU-RGB+D are as follows: _drink water, brush hair, hand waving, wipe face, rub two hands, jump up, staggering, falling down, walking towards and take off a shoe._
 - "Normal" refers to **Model I**, Small refers to **Model II**.
 - "Temporal" refers to the temporal kernel size.
 - "Downsample" refers to the downsampling rate, for example: 0.25 means that the new number of frames is 1/4th of the original one.
