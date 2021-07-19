@@ -40,7 +40,7 @@ Some results of different experiments are shown here:
 
 | Model | Temporal Kernel Size | Downsampled NTU-RGB+D <br/> (60 actions)| Downsampled NTU-RGB+D <br/> (10 actions) |
 | :------ | :------: | :------: | :------: |
-| Model I (ST-GCN) [1] | 9 | <s> 76.29% </s> <br> 86.02% | 93.39% |  
+| Model I (ST-GCN) [1] | 9 | 86.02% | 93.39% |  
 | **Model II** (Proposed)| **9** | **85.59%** | **94.01%** | 
 | Model I (ST-GCN) [1] | 13 | 86.53% | 94% |  
 | **Model II** (Proposed)| **13** | **84.7%** | **93.29%** | 
